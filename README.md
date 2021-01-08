@@ -1,7 +1,16 @@
 # Exam Question Difficulty Estimation
 An NLP model for estimating exam question difficulty, given its p-value and wording.  
 
-The model leverages SpaCy and NLTK for removal of POS tagging and removal of stop-words, as well as lemmatization.
+The model leverages SpaCy and NLTK for removal of POS tagging and removal of stop-words, as well as lemmatization.  
+It also attempts simple hyperparameter tuning to find the best hyperparameter values.  
+
+The approach for this project was:  
+- Clean database artifacts from the input
+- Lemmatize the input, e.g. reading becomes read, to massively reduce the dictionary size
+- Stop-words are then removed, as well as problematic POS
+- Hyperparameter tuning is performed, and final model is trained
+
+After final training, the user is encouraged to input other exam questions, for real-time exam question difficulty estimations, for purposes of checking new exam questions and testing.
 
 # Usage  
 Sadly, the database cannot be provided for confidentiality reasons.  
