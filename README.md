@@ -12,6 +12,11 @@ However, input may be of the format:
 | 0.12378355         | Example #2               |
 | ...         | ...              |
 
+If a dataset is provided, the model can be run with:  
+```
+python nlp_keras.py
+```
+
 # Results  
 <p>
   Results on our dataset resulted in overfitting, but the model would be able to accurately estimate difficulty for questions similar to what exists in the database.
