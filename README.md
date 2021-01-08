@@ -8,7 +8,8 @@ The approach for this project was:
 - Clean database artifacts from the input
 - Lemmatize the input, e.g. reading becomes read, to massively reduce the dictionary size
 - Stop-words are then removed, as well as problematic POS
-- Hyperparameter tuning is performed, and final model is trained
+- Hyperparameter tuning is performed
+- Final model is trained from the best hyperparameters
 
 After final training, the user is encouraged to input other exam questions, for real-time exam question difficulty estimations, for purposes of checking new exam questions and testing.
 
