@@ -11,7 +11,9 @@ However, input may be of the format:
 | ...         | ...              |
 
 # Results  
-Results on our
+<p>
+  Results on our dataset resulted in overfitting, but the model would be able to accurately estimate difficulty for questions similar to what exists in the database.
+</p>
 <img src="/img/sample_results.png" width="350" alt="accessibility text">
 
 # Author  
