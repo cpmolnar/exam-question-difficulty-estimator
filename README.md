@@ -1,5 +1,7 @@
 # Exam Question Difficulty Estimation
-An NLP model for estimating exam question difficulty, given its p-value and wording.
+An NLP model for estimating exam question difficulty, given its p-value and wording.  
+
+The model leverages SpaCy and NLTK for removal of POS tagging and removal of stop-words, as well as lemmatization.
 
 # Usage  
 Sadly, the database cannot be provided for confidentiality reasons.  
