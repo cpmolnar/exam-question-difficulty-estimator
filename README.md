@@ -29,7 +29,7 @@ python nlp_keras.py
 
 # Results  
 <p>
-  Results on our dataset resulted in overfitting, but the model would be able to accurately estimate difficulty for questions similar to what exists in the database.
+  Results on our dataset resulted in overfitting, due to data constraints. NLP problems take massive amounts of data, which I simply didn't have access to. Additionally, a model would ideally be trained with contextual information about the topics in the questions, but the words in the dataset are highly discipline-specific and otherwise uncommon.
 </p>
 <img src="/img/sample_results.png" width="350" alt="accessibility text">
 
